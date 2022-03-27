@@ -1,0 +1,96 @@
+{
+    "british": [
+        {
+            "openingHours": "The Museum is open daily, 10.00-17.00 (last entry at 16.00). On Fridays the Museum is open until 20.30 (last entry at 19.30)",
+            "address": {
+                "addressCountry":"GB",
+                "addressLocality":"London",
+                "addressRegion":"London",
+                "postalCode":"WC1B 3DG",
+                "streetAddress":"Great Russell Street, London WC1B 3DG, England, United Kingdom"
+            },
+            "aggregateRating":"",
+            "event": [
+                {
+                    "nom":"event1",
+                    "data":"11/04",
+                    "isAccessibleForFree":"False"
+                },
+                {
+                    "nom":"event2",
+                    "data":"12/04"
+                }
+            ],
+            "geo": {
+                "latitude":"51.51956013101548",
+                "longitude":"-0.1269244066414637"
+            },
+            "hasDriveThroughService":"False",
+            "hasMap":"https://www.britishmuseum.org/visit/museum-map",
+            "isAccessibleForFree":"True",
+            "keywords":"museum, culture, egypt, greece, history, art, sculpture",
+            "logo":"./img/favicon-32x32.png",
+            "maximumAttendeeCapacity":"",
+            "photo":"./img/British_Museum_Exterior.jpg",
+            "publicAccess":"True",
+            "slogan":"Bring together under one roof the cultures of the world",
+            "smokingAllowed":"False",
+            "telephone":"+44 (0)20 7323 8000",
+            "tourBookingPage":"https://www.britishmuseum.org/visit",
+            "description":"The British Museum is a public museum dedicated to human history, art and culture located in the Bloomsbury area of London.\nIts permanent collection of eight million works is among the largest and most comprehensive in existence. It documents the story of human culture from its beginnings to the present.",
+            "identifier":"1958,0712.2142",
+            "mainEntityOfPage":"https://www.britishmuseum.info",
+            "name":"British Museum",
+            "sameAs":"https://www.britishmuseum.org",
+            "url":"https://www.britishmuseum.info"
+        },
+        {
+            "name":"Egypt",
+            "description":"",
+            "photo":"",
+            "url":""
+        },
+        {
+            "name":"Greece",
+            "description":"",
+            "photo":"",
+            "url":""
+        },
+        {
+            "name":"Rome",
+            "description":"",
+            "photo":"",
+            "url":""
+        },
+        {
+            "name":"Africa",
+            "description":"",
+            "photo":"",
+            "url":""
+        },
+        {
+            "name":"America",
+            "description":"",
+            "photo":"",
+            "url":""
+        },
+        {
+            "name":"Asia",
+            "description":"",
+            "photo":"",
+            "url":""
+        },
+        {
+            "name":"Europe",
+            "description":"",
+            "photo":"",
+            "url":""
+        },
+        {
+            "name":"Oceania",
+            "description":"",
+            "photo":"",
+            "url":""
+        }
+    ]
+}
