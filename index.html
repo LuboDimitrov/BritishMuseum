@@ -13,6 +13,7 @@
 		<meta name="keywords" content="">
 		<!-- meta character set -->
 		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<!-- Site Title -->
 		<title>British Museum</title>
 
@@ -57,22 +58,47 @@
 						</div>
 						<nav id="nav-menu-container">
 							<ul class="nav-menu">
+								<li class="menu-has-children">
+									<a href="#">Login</a>
+									  <ul id="login-dp">
+										  <li>
+											   <div class="row">
+													  <div class="col-md-12">
+													
+														   <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+																  <div class="form-group">
+																	   <label class="sr-only" for="exampleInputEmail2">Email address</label>
+																	   <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+																  </div>
+																  <div class="form-group">
+																	   <label class="sr-only" for="exampleInputPassword2">Password</label>
+																	   <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+													
+																  </div>
+																  <div class="form-group">
+																	   <button type="submit" class="primary-btn btn-block">Sign in</button>
+																  </div>
+																  
+														   </form>
+													  </div>
+													
+											   </div>
+										  </li>
+									  </ul>
+								  </li>
 								<li><a href="index.html#about">About</a></li>
-								<li><a href="index.html#gallery">Gallery</a></li>
 								<li><a href="index.html#exhibitions">Events</a></li>
-								<li><a href="index.html#contact">Contact</a></li>
-								<li class="menu-has-children"><a href="category.html">Categories</a>
+								<li class="menu-has-children"><a href="index.html#events">Categories</a>
 									<ul>
-										<li><a href="category.html#egypt">Ancient Egypt</a></li>
-										<li><a href="category.html#greece">Ancient Greece</a></li>
-										<li><a href="category.html#romanempire">Roman Empire</a></li>
 										<li><a href="category.html#africa">Africa</a></li>
 										<li><a href="category.html#america">America</a></li>
 										<li><a href="category.html#asia">Asia</a></li>
 										<li><a href="category.html#europe">Europe</a></li>
 										<li><a href="category.html#oceania">Oceania</a></li>
 									</ul>
-								</li>			          
+								</li>
+								<li><a href="index.html#gallery">Gallery</a></li>
+								<li><a href="index.html#social">Social</a></li>			          
 							</ul>
 						</nav><!-- #nav-menu-container -->		    		
 			    	</div>
@@ -107,15 +133,17 @@
 						<div class="col-lg-4">
 							<div class="single-service">
 							  <span class="lnr lnr-clock"></span>
-							  <h4>Openning Hours</h4>
+							  <h4>Opening Hours</h4>
 							  <p>
 							  	Explore our schedule
+								<br>
+								&#xfeff <!--Blank character -->
 							  </p>						 	
 							  <div class="overlay">
 							    <div class="text">
 							    	<p>
-							    		Mon - Fri: 10.00am to 05.00pm
-										Sat: 12.00pm to 03.00 pm
+							    		Mon - Fri: 10.00am to 05.00pm <br>
+										Sat: 12.00pm to 03.00 pm <br>
 										Sunday Closed
 							    	</p>
 							    </div>
@@ -132,7 +160,7 @@
 							  <div class="overlay">
 							    <div class="text">
 							    	<p>
-							    		From different continents to specific areas such as Egypt, Greece and Rome... and more!
+							    		From different continents to specific areas such as Egypt, Greece, Rome... and more!
 							    	</p>
 							    	<a href="category.html" class="text-uppercase primary-btn">Explore categories</a>
 							    </div>
@@ -151,7 +179,7 @@
 							    	<p>
 							    		Exclusive events (available for a short time period)
 							    	</p>
-							    	<a href="#" class="text-uppercase primary-btn">Explore events</a>
+							    	<a href="index.html#exhibitions"  class="text-uppercase primary-btn">Explore events</a>
 							    </div>
 							  </div>
 							</div>							
@@ -167,9 +195,9 @@
 					<div class="row">
 						<div class="col-lg-6 quote-left">
 							<h1>
-								<span>Music</span> gives soul to the universe, <br>
-								wings to the <span>mind</span>, flight <br>
-								to the <span>imagination</span>.
+								This is <span>The British Museum: </span><br>
+								<span>8 million</span> objects, <br>
+								great <span>diversity</span> and <span>depth</span>
 							</h1>
 						</div>
 						<div class="col-lg-6 quote-right">
@@ -188,8 +216,8 @@
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-60 col-lg-10">
 							<div class="title text-center">
-								<h1 class="mb-10">Ongoing Exhibitions from the scratch</h1>
-								<p>Who are in extremely love with eco friendly system.</p>
+								<h1 class="mb-10">Temporary Exhibitions and Events</h1>
+								<p>These are our current events and exhibitions hosted in our museum</p>
 							</div>
 						</div>
 					</div>						
@@ -198,10 +226,10 @@
 							<div class="single-exibition item">
 								<img src="img/e1.jpg" alt="">
 								<ul class="tags">
-									<li><a href="#">Travel</a></li>
-									<li><a href="#">Life style</a></li>
+									<li><a href="#">Tag1</a></li>
+									<li><a href="#">Tag2</a></li>
 								</ul>
-								<a href="#"><h4>Portable latest blog for women</h4></a>
+								<a href="#"><h4>Event 1</h4></a>
 								<p>
 									Lorem ipsum dolor sit amet, consec teturadip isicing elit, sed do eiusmod tempor.
 								</p>
@@ -211,10 +239,10 @@
 							<div class="single-exibition item">
 								<img src="img/e2.jpg" alt="">
 								<ul class="tags">
-									<li><a href="#">Travel</a></li>
-									<li><a href="#">Life style</a></li>
+									<li><a href="#">Tag1</a></li>
+									<li><a href="#">Tag2</a></li>
 								</ul>
-								<a href="#"><h4>Portable latest blog for women</h4></a>
+								<a href="#"><h4>Event 2</h4></a>
 								<p>
 									Lorem ipsum dolor sit amet, consec teturadip isicing elit, sed do eiusmod tempor.
 								</p>
@@ -224,10 +252,10 @@
 							<div class="single-exibition item">
 								<img src="img/e3.jpg" alt="">
 								<ul class="tags">
-									<li><a href="#">Travel</a></li>
-									<li><a href="#">Life style</a></li>
+									<li><a href="#">Tag1</a></li>
+									<li><a href="#">Tag2</a></li>
 								</ul>
-								<a href="#"><h4>Portable latest blog for women</h4></a>
+								<a href="#"><h4>Event 3</h4></a>
 								<p>
 									Lorem ipsum dolor sit amet, consec teturadip isicing elit, sed do eiusmod tempor.
 								</p>
@@ -321,8 +349,8 @@
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-60 col-lg-10">
 							<div class="title text-center">
-								<h1 class="mb-10">Checkout our Upcoming Events</h1>
-								<p>Who are in extremely love with eco friendly system.</p>
+								<h1 class="mb-10">Check out our different Categories</h1>
+								<p>Our categories are divided by countries of the world</p>
 							</div>
 						</div>
 					</div>						
@@ -330,41 +358,41 @@
 						<div class="col-lg-6 event-left">
 							<div class="single-events">
 								<img class="img-fluid" src="img/u1.jpg" alt="">
-								<a href="#"><h4>Event on the rock solid carbon</h4></a>
+								<a href="#"><h4>Africa</h4></a>
 								<h6><span>21st February</span> at Central government museum</h6>
 								<p>
 									inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially.
 								</p>
-								<a href="#" class="primary-btn text-uppercase">View Details</a>
+								<a href="category.html#africa" class="primary-btn text-uppercase">View Details</a>
 							</div>
 							<div class="single-events">
 								<img class="img-fluid" src="img/u3.jpg" alt="">
-								<a href="#"><h4>Event on the rock solid carbon</h4></a>
+								<a href="#"><h4>America</h4></a>
 								<h6><span>21st February</span> at Central government museum</h6>
 								<p>
 									inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially.
 								</p>
-								<a href="#" class="primary-btn text-uppercase">View Details</a>
+								<a href="category.html#america" class="primary-btn text-uppercase">View Details</a>
 							</div>							
 						</div>
 						<div class="col-lg-6 event-right">
 							<div class="single-events">
-								<a href="#"><h4>Event on the rock solid carbon</h4></a>
+								<a href="#"><h4>Asia</h4></a>
 								<h6><span>21st February</span> at Central government museum</h6>
 								<p>
 									inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially.
 								</p>
-								<a href="#" class="primary-btn text-uppercase">View Details</a>
+								<a href="category.html#asia" class="primary-btn text-uppercase">View Details</a>
 								<img class="img-fluid" src="img/u2.jpg" alt="">
 							</div>
 							<div class="single-events">
 								
-								<a href="#"><h4>Event on the rock solid carbon</h4></a>
+								<a href="#"><h4>Europe</h4></a>
 								<h6><span>21st February</span> at Central government museum</h6>
 								<p>
 									inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially.
 								</p>
-								<a href="#" class="primary-btn text-uppercase">View Details</a>
+								<a href="category.html#europe" class="primary-btn text-uppercase">View Details</a>
 								<img class="img-fluid" src="img/u4.jpg" alt="">
 							</div>							
 						</div>
@@ -374,6 +402,7 @@
 			<!-- End upcoming-event Area -->
 			
 			<!-- Start blog Area -->
+			<!--
 			<section class="blog-area section-gap" id="blog">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
@@ -448,6 +477,7 @@
 					</div>
 				</div>	
 			</section>
+			-->
 			<!-- End blog Area -->
 
 			<!-- Start gallery Area -->
@@ -456,7 +486,7 @@
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-70 col-lg-8">
 							<div class="title text-center">
-								<h1 class="mb-10 text-white">Our Exhibition Gallery</h1>
+								<h1 class="mb-10 text-white">Gallery of our Museum</h1>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
 							</div>
 						</div>
@@ -483,23 +513,41 @@
 			
 
 			<!-- start footer Area -->		
-			<footer class="footer-area section-gap">
+			<footer class="footer-area section-gap" id="social">
 				<div class="container">
-					<div class="row">
-						<div class="col-lg-5 col-md-6 col-sm-6">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-60 col-lg-10">
+							<div class="title text-center">
+								<h1 class="mb-10">Our Twitter Feed</h1>
+								<p>Here we show you our recent tweets</p>
+							</div>
+						</div>
+					</div>
+					<div id="grid-container" class="row">
+						<div id="twitter" class="grid-item"></div>
+						<div id="twitter" class="grid-item"></div>
+						<div id="twitter" class="grid-item"></div>
+						<div id="twitter" class="grid-item"></div>
+						<div id="twitter" class="grid-item"></div>
+						<div id="twitter" class="grid-item"></div>
+						
+						
+					</div>
+
+						<!-- <div class="col-lg-5 col-md-6 col-sm-6">
 							<div class="single-footer-widget">
 								<h6>About Us</h6>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.
 								</p>
-								<p class="footer-text">
+								<p class="footer-text text-white">
 									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> and distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+<!--Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o text-white" aria-hidden="true"></i> by <a class="text-white" href="https://colorlib.com" target="_blank">Colorlib</a> and distributed by <a class = "text-white" href="https://themewagon.com" target="_blank">ThemeWagon</a>-->
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 								</p>
 							</div>
-						</div>
-						<div class="col-lg-5  col-md-6 col-sm-6">
+						</div> -->
+						<!-- <div class="col-lg-5  col-md-6 col-sm-6">
 							<div class="single-footer-widget">
 								<h6>Newsletter</h6>
 								<p>Stay update with our latest</p>
@@ -515,8 +563,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									</form>
 								</div>
 							</div>
-						</div>						
-						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+						</div>						 -->
+						<!-- <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
 							<div class="single-footer-widget">
 								<h6>Follow Us</h6>
 								<p>Let us be social</p>
@@ -527,7 +575,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<a href="#"><i class="fa fa-behance"></i></a>
 								</div>
 							</div>
-						</div>							
+						</div>							 -->
 					</div>
 				</div>
 			</footer>	
