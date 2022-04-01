@@ -135,8 +135,58 @@ h4, h5, h6 {
   color: #222222;
 }
 
+@font-face {
+  font-family: "Georgiaz";
+  src: url(../fonts/georgiaz.ttf)  format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "TNRBI";
+  src: url(../fonts/times\ new\ roman\ bold\ italic.ttf)  format('truetype');
+  font-weight: bold;
+}
+
+
+
+#login-dp{
+  min-width: 50px;
+  max-width: 250px;
+  padding: 14px 14px 14px 14px;
+  overflow:hidden;
+  margin: 20px, 20px, 20px, 20px;
+  background-color:rgba(255,255,255,.8);
+  
+}
+#login-dp .help-block{
+  font-size:12px    
+}
+#login-dp .bottom{
+  background-color:rgba(255,255,255,.8);
+  border-top:1px solid #ddd;
+  clear:both;
+  padding:14px;
+}
+
+#login-dp .form-group {
+  margin-bottom: 10px;
+}
+
+@media(max-width:768px){
+  #login-dp{
+      background-color: inherit;
+      color: #fff;
+      width: auto;
+  }
+  #login-dp .bottom{
+      background-color: inherit;
+      border-top:0 none;
+  }
+}
+
+
 #slogan {
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: "Georgiaz", "TNRBI", Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 45px;
 }
@@ -2658,6 +2708,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #fff;
 }
 
+.footer-area #grid-container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.footer-area .grid-item {
+  opacity: 0;
+  float: left;
+  box-sizing: border-box;
+}
+
 .footer-area h6 {
   margin-bottom: 25px;
   font-size: 18px;
@@ -3466,6 +3528,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 .commentform-area .form-control {
   border: none;
   background: #f9f9ff;
+}
+
+#twitter {
+  width: 800px;
+  height: 450px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  align-self: center;
+  
 }
 
 /*
