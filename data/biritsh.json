@@ -43,25 +43,10 @@
             "name":"British Museum",
             "sameAs":"https://www.britishmuseum.org",
             "url":"https://www.britishmuseum.info"
-        },
-        {
-            "name":"Egypt",
-            "description":"",
-            "photo":"",
-            "url":""
-        },
-        {
-            "name":"Greece",
-            "description":"",
-            "photo":"",
-            "url":""
-        },
-        {
-            "name":"Rome",
-            "description":"",
-            "photo":"",
-            "url":""
-        },
+        }
+    ],
+
+    "categories": [
         {
             "name":"Africa",
             "description":"",
@@ -91,6 +76,39 @@
             "description":"",
             "photo":"",
             "url":""
+        }
+    ],
+
+    "datos-extra": [
+        {
+            "name": "photos-africa",
+            "photos": [
+
+            ]
+        },
+        {
+            "name": "photos-america",
+            "photos": [
+
+            ]
+        },
+        {
+            "name": "photos-asia",
+            "photos": [
+
+            ]
+        },
+        {
+            "name": "photos-europe",
+            "photos": [
+
+            ]
+        },
+        {
+            "name": "photos-oceania",
+            "photos": [
+
+            ]
         }
     ]
 }
