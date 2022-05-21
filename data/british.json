@@ -1,0 +1,229 @@
+{
+    "british":
+        {
+            "@context":"http://www.schema.org",
+            "@type":"Museum",
+            "openingHours": ["Mo, Tu, We, Th, Fr 10:00-17:00", "Sa 12:00-15:00"],
+            "address": {
+                "@type":"PostalAddress",
+                "addressCountry":"GB",
+                "addressLocality":"London",
+                "addressRegion":"London",
+                "postalCode":"WC1B 3DG",
+                "streetAddress":"Great Russell Street, London WC1B 3DG, England, United Kingdom"
+            },
+            "geo": {
+                "@type":"GeoCoordinates",
+                "latitude":"51.51956013101548",
+                "longitude":"-0.1269244066414637"
+            },
+            "hasDriveThroughService":"False",
+            "hasMap":"https://www.britishmuseum.org/visit/museum-map",
+            "isAccessibleForFree":"True",
+            "keywords":"museum, culture, egypt, greece, history, art, sculpture",
+            "logo":"http://britishmuseum.info/img/favicon-32x32.png",
+            "maximumAttendeeCapacity":"",
+            "photo":"http://britishmuseum.info/img/British_Museum_Exterior.jpg",
+            "publicAccess":"True",
+            "slogan":"Bring together under one roof the cultures of the world",
+            "smokingAllowed":"False",
+            "telephone":"+44 (0)20 7323 8000",
+            "tourBookingPage":"https://www.britishmuseum.org/visit",
+            "description":"The British Museum is a public museum dedicated to human history, art and culture located in the Bloomsbury area of London.\nIts permanent collection of eight million works is among the largest and most comprehensive in existence. It documents the story of human culture from its beginnings to the present.",
+            "identifier":"1958,0712.2142",
+            "mainEntityOfPage":"https://www.britishmuseum.info",
+            "name":"British Museum",
+            "author":[
+                {
+                    "@type": "Person", 
+                    "givenName": "Lubo Dimitrov",
+                    "gender": "Male",
+                    "birthDate":"04/06/1999",
+                    "alternateName":"Copista",
+                    "seeks":"aprovar"
+                },
+                {
+                    "@type":"Person",
+                    "givenName":"Joan Pascual",
+                    "gender":"Male",
+                    "birthDate":"11/04/2000",
+                    "seeks":"aprovar"
+                }
+            ],
+            "url":"https://www.britishmuseum.info"
+        },
+    
+    "categories": [
+        {
+            "name":"Greece",
+            "description":"Visit Room 19 at the British Museum to enjoy sculpture and architecture of Athens at the height of its political and cultural power.",
+            "image":"https://britishmuseum.info/img/categories/greece2.jpg",
+            "MediaObject":{
+                "@type":"VideoObject",
+                "contentUrl":"http://britishmuseum.info/videos/videoGreece.mp4"
+            }
+        },
+        {
+            "name":"Egypt",
+            "description":"Travel back through 3,000 years of Egyptian history and come face-to-face with the Rosetta Stone and the Statue of Ramesses II.",
+            "image":"https://britishmuseum.info/img/categories/egypt1.jpg",
+            "MediaObject":{
+                "@type":"VideoObject",
+                "contentUrl":"http://britishmuseum.info/videos/egypt.mp4"
+            }
+        }
+    ],
+
+    "events": [
+        {
+            "@type":"Event",
+            "name":"The World of Stonehenge",
+            "description":"Towering above the Wiltshire countryside, Stonehenge is perhaps the world's most awe-inspiring ancient stone circle.",
+            "image":"http://britishmuseum.info/img/exhibitions/stonehenge.jpg",
+            "keywords":[
+                "Monument","Stone Age"
+            ],
+            "startDate":"17 Feb 2022",
+            "endDate":"17 Jul 2022",  
+            "isAccessibleForFree":"False"
+        },
+        {
+            "@type":"Event",
+            "name":"Life in a cup: Coffee culture in the Islamic World",
+            "description":"'Life in a cup' presents a fascinating story and explores the traditions that make coffee a way of life in parts of the Islamic world.",
+            "image":"http://britishmuseum.info/img/exhibitions/coffe.jpeg",
+            "keywords":[
+                "Drink & food","Arabic"
+            ],
+            "startDate":"27 Oct 2021",
+            "endDate":"18 Sep 2022",
+            "isAccessibleForFree":"True"
+        },
+        {
+            "@type":"Event",
+            "name":"Feminine power: the divine to the demonic",
+            "description":"The first exhibition of its kind, Feminine power takes a cross-cultural look at the profound influence of female spiritual beings within global religion and faith.",
+            "image":"http://britishmuseum.info/img/exhibitions/femeninepower.jpg",
+            "keywords":[
+                "History","Feminism"
+            ],
+            "startDate":"19 May 2022",
+            "endDate":"25 Sep 2022",  
+            "isAccessibleForFree":"False"
+        },
+        {
+            "@type":"Event",
+            "name":"Drawing attention: emerging British artists",
+            "description":"Discover emerging talents in the field of contemporary drawing, displayed alongside highlights from the Museum's collection.",
+            "image":"http://britishmuseum.info/img/exhibitions/drawing.jpg",
+            "keywords":[
+                "Drawing","Contemporary"
+            ],
+            "startDate":"27 Oct 2021",
+            "endDate":"18 Sep 2022",
+            "isAccessibleForFree":"True"
+        },
+        {
+            "@type":"Event",
+            "name":"Greek Revival: simplicity and splendour",
+            "description":"In this free display, discover more about the rise of Greek Revival architecture through contemporary watercolours and contextual images. This is a rare opportunity to learn more about Smirke and view his original drawing of the Parthenon within the walls of the building he designed.",
+            "image":"http://britishmuseum.info/img/exhibitions/partenon.jpg",
+            "keywords":[
+                "Ancient Greece","Architecture"
+            ],
+            "startDate":"10 Mar 2022",
+            "endDate":"8 May 2022",  
+            "isAccessibleForFree":"True"
+        },
+        {
+            "@type":"Event",
+            "name":"Raphael and his school: drawing connections",
+            "description":"Experience the Italian Renaissance master's exquisite drawings and trace his influence through the work of his pupils.",
+            "image":"http://britishmuseum.info/img/exhibitions/rapahel.png",
+            "keywords":[
+                "Drawing","Cinquecento"
+            ],
+            "startDate":"27 Oct 2021",
+            "endDate":"18 Sep 2022",
+            "isAccessibleForFree":"True"
+        },
+        {
+            "@type":"Event",
+            "name":"Printmaking in Prague: art from the court of Rudolf II",
+            "description":"In this exhibition, learn more about printmaking in Rudolf's court in Prague during the highpoint of innovative and ambitious prints made from around 1580 until the early years of the 17th century",
+            "image":"http://britishmuseum.info/img/exhibitions/printmaking.jpg",
+            "keywords":[
+                "Drawing","Renaissance"
+            ],
+            "startDate":"17 Mar 2022",
+            "endDate":"28 Aug 2022",  
+            "isAccessibleForFree":"True"
+        },
+        {
+            "@type":"Event",
+            "name":"Around the world in 70 minutes tour",
+            "description":"Explore some of the most famous objects on display at the Museum on this guided highlights tour.",
+            "image":"http://britishmuseum.info/img/exhibitions/world.jpg",
+            "keywords":[
+                "Tour","International"
+            ],
+            "startDate":"8 Apr 2022",
+            "endDate":"29 May 2022",  
+            "isAccessibleForFree":"False"
+        },
+        {
+            "@type":"Event",
+            "name":"Out-of-hours tour: an introduction to the British Museum",
+            "description":"Explore the oldest room in the Museum in this special guided tour before the galleries open to the public.",
+            "image":"http://britishmuseum.info/img/exhibitions/tour.jpg",
+            "keywords":[
+                "Tour","Museum"
+            ],
+            "startDate":"8 Apr 2022",
+            "endDate":"17 Dec 2022",
+            "isAccessibleForFree":"False"
+        }
+    ],
+
+    "datosExtra": [
+        {
+            "gallery": [
+                "http://britishmuseum.info/img/gallery/gallery0.jpg",
+                "http://britishmuseum.info/img/gallery/gallery1.jpg",
+                "http://britishmuseum.info/img/gallery/gallery2.jpg",
+                "http://britishmuseum.info/img/gallery/gallery3.jpg",
+                "http://britishmuseum.info/img/gallery/gallery4.jpg",
+                "http://britishmuseum.info/img/gallery/gallery5.jpg",
+                "http://britishmuseum.info/img/gallery/gallery6.jpg",
+                "http://britishmuseum.info/img/gallery/gallery7.jpg",
+                "http://britishmuseum.info/img/gallery/gallery8.jpg",
+                "http://britishmuseum.info/img/gallery/gallery9.jpg",
+                "http://britishmuseum.info/img/gallery/gallery10.jpg",
+                "http://britishmuseum.info/img/gallery/gallery11.jpg",
+                "http://britishmuseum.info/img/gallery/gallery12.jpg",
+                "http://britishmuseum.info/img/gallery/gallery13.jpg",
+                "http://britishmuseum.info/img/gallery/gallery14.jpg",
+                "http://britishmuseum.info/img/gallery/gallery15.jpg"
+            ],
+
+            "galleryEgypt": [
+                "https://britishmuseum.info/img/egipto/egipto1.jpg",
+                "https://britishmuseum.info/img/egipto/egipto2.jpg",
+                "https://britishmuseum.info/img/egipto/egipto3.jpg",
+                "https://britishmuseum.info/img/egipto/egipto4.jpg",
+                "https://britishmuseum.info/img/egipto/egipto5.jpg",
+                "https://britishmuseum.info/img/egipto/egipto6.jpg"
+            ],
+
+            "galleryGreece": [
+                "https://britishmuseum.info/img/grecia/grecia1.jpg",
+                "https://britishmuseum.info/img/grecia/grecia2.jpg",
+                "https://britishmuseum.info/img/grecia/grecia3.jpg",
+                "https://britishmuseum.info/img/grecia/grecia4.jpg",
+                "https://britishmuseum.info/img/grecia/grecia5.jpg",
+                "https://britishmuseum.info/img/grecia/grecia6.jpg"
+            ]
+        }
+        
+    ]
+}
