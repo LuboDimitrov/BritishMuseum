@@ -1,0 +1,6 @@
+<urlrewrites>
+    <rule>
+        <url>category(.*)</url>
+        <rewrite>/britishmuseum.info/category</rewrite>
+    </rule>
+</urlrewrites>

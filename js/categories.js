@@ -201,8 +201,7 @@ $(document).ready(function () {
   }
   
   function JSONextern(){
-    loadJSON("https://museosdemallorca.netlify.app/museos.json", function (datos) {
-      console.log(datos);
+    loadJSON("https://museosdemallorca.netlify.app/json/museos.json", function (datos) {
       carregarMuseusMallorca(datos);
     });
   }
@@ -232,7 +231,7 @@ $(document).ready(function () {
                 "contentUrl": data.categories[1].MediaObject.ccontentUrl
             }
         }
-    ],
+      ]
     }
     script.textContent += JSON.stringify(s);
     document.head.appendChild(script);
@@ -289,13 +288,13 @@ $(document).ready(function () {
       var descripcioMuseu2 = document.getElementById("descripcioMuseu2");
       var fotoMuseu2 = document.getElementById("imatgeMuseu2");
 
-      titolMuseu1.innerHTML = datos[0].name;
-      descripcioMuseu1.innerHTML = datos[0].description;
-      fotoMuseu1.src = "https://museosdemallorca.netlify.app/" + datos[0].image;
+      titolMuseu1.innerHTML = datos.Museum[0].name;
+      descripcioMuseu1.innerHTML = datos.Museum[0].description;
+      fotoMuseu1.src = datos.Museum[0].image;
       
-      titolMuseu2.innerHTML = datos[3].name;
-      descripcioMuseu2.innerHTML = datos[3].description;
-      fotoMuseu2.src = "https://museosdemallorca.netlify.app/" + datos[3].image;
+      titolMuseu2.innerHTML = datos.Museum[3].name;
+      descripcioMuseu2.innerHTML = datos.Museum[3].description;
+      fotoMuseu2.src = datos.Museum[3].image;
     }
 
     JSONextern();
@@ -419,10 +418,10 @@ $(document).ready(function () {
   videoEgypt.setAttribute("class", "videoNostre");
 
   if (videoEgypt.canPlayType("video/mp4")) {
-    videoEgypt.src = "http://britishmuseum.info/videos/egypt.mp4";
+    videoEgypt.src = "https://britishmuseum.info/videos/egypt.mp4";
   }
   if (videoEgypt.canPlayType("video/webm")) {
-    videoEgypt.src = "http://britishmuseum.info/videos/egypt.webm";
+    videoEgypt.src = "https://britishmuseum.info/videos/egypt.webm";
   }
 
   videoEgypt.autoplay = true;
@@ -438,10 +437,10 @@ $(document).ready(function () {
   videoGreece.setAttribute("class", "videoNostre");
 
   if (videoGreece.canPlayType("video/mp4")) {
-    videoGreece.src = "http://britishmuseum.info/videos/videoGreece.mp4";
+    videoGreece.src = "https://britishmuseum.info/videos/videoGreece.mp4";
   }
   if (videoEgypt.canPlayType("video/webm")) {
-    videoGreece.src = "http://britishmuseum.info/videos/videoGreece.webm";
+    videoGreece.src = "https://britishmuseum.info/videos/videoGreece.webm";
   }
 
   videoGreece.autoplay = true;

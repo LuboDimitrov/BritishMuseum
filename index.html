@@ -9,12 +9,13 @@
 	<!-- Author Meta -->
 	<meta name="author" content="Lubo Dimitrov, Joan Pascual">
 	<!-- Meta Description -->
-	<meta name="description" content="Pràctica assignatura TM">
+	<meta name="description" content="Pràctica assignatura TM , que es basa en dur a terme una pàgina web responsive">
 	<!-- Meta Keyword -->
 	<meta name="keywords" content="museum, culture, egypt, greece, history, art, sculpture">
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta property="og:title" content="British Museum" />
 
 	<!-- Site Title -->
 	<title>British Museum</title>
@@ -32,6 +33,7 @@
 	<!--
 			CSS
 			============================================= -->
+	<link rel="canonical" href="https://britishmuseum.info/" /> 
 	<link rel="stylesheet" href="css/linearicons.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
@@ -50,14 +52,13 @@
 			<div class="row align-items-center justify-content-between d-flex">
 				<div class="col-3">
 					<div id="logo">
-						<a href="index.html">
-							<img src="img/british-museum-logo.svg" />
+						<a href="index.html">&#xfeff
+							<img src="img/british-museum-logo.svg" alt="logo"/>
 						</a>
 					</div>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
-						<li id="loginElement"><a href="#" id="loginName"></a></li>
 						<li><a href="index.html#about">About</a></li>
 						<li><a href="index.html#exhibitions">Events</a></li>
 						<li class="menu-has-children"><a href="index.html#events">Categories</a>
@@ -67,7 +68,7 @@
 								<li><a href="category.html#museosMallorca">Mallorca</a></li>
 							</ul>
 						</li>
-						<li><a href="index.html#gallery">Gallery</a></li>
+						<!-- <li><a href="index.html#gallery">Gallery</a></li> -->
 						<li><a href="index.html#social">Social</a></li>
 					</ul>
 				</nav><!-- #nav-menu-container -->
@@ -82,7 +83,7 @@
 		<div class="container">
 			<div class="row fullscreen d-flex align-items-center justify-content-center">
 				<div class="banner-content col-lg-8">
-					<h6 class="text-white">Welcome to the British Museum</h6>
+					<!-- <h6 class="text-white">Welcome to the British Museum</h6> -->
 					<h1 class="text-white" id="slogan">
 						"Bringing together under one roof the cultures of the world"
 					</h1>
@@ -163,11 +164,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 quote-left">
-					<h1>
+					<h2>
 						This is <span>The British Museum: </span><br>
 						<span>8 million</span> objects, <br>
 						great <span>diversity</span> and <span>depth</span>
-					</h1>
+					</h2>
 				</div>
 				<div class="col-lg-6 quote-right">
 					<p>
@@ -241,9 +242,9 @@
 										</div>
 										<div class="widget-right__footer widget-right__footer--brown">
 											<div class="widget-right__layout"><a href="//openweathermap.org/"
-													target="_blank">
+													target="_blank">&#xfeff
 													<div class="widget-right__logo_black_small"></div>
-												</a>
+													&#xfeff</a>
 												<div class="widget-right__date" id="weekDay"></div>
 											</div>
 										</div>
@@ -264,7 +265,7 @@
 			<div class="row d-flex justify-content-center">
 				<div class="menu-content pb-60 col-lg-10">
 					<div class="title text-center">
-						<h1 class="mb-10">Temporary Exhibitions and Events</h1>
+						<h2 class="mb-10">Temporary Exhibitions and Events</h2>
 						<p>These are our current events and exhibitions hosted in our museum</p>
 					</div>
 				</div>
@@ -296,7 +297,7 @@
 			<div class="row d-flex justify-content-center">
 				<div class="menu-content pb-60 col-lg-10">
 					<div class="title text-center">
-						<h1 class="mb-10">Check out our different Categories</h1>
+						<h2 class="mb-10">Check out our different Categories</h2>
 						<p>Our categories are divided by countries of the world</p>
 					</div>
 				</div>
@@ -304,8 +305,8 @@
 			<div class="row">
 				<div class="col-md-6 event-left">
 					<div class="single-events">
-						<img class="img-fluid" src="https://britishmuseum.info/img/categories/egypt1.jpg" alt="">
-						<a href="#">
+						<img class="img-fluid" src="https://britishmuseum.info/img/categories/egypt1.webp" alt="foto">
+						<a href="#"> &#xfeff
 							<h4>Egypt</h4>
 						</a>
 						<h6><span>Room 4</span></h6>
@@ -318,7 +319,7 @@
 				</div>
 				<div class="col-md-6 event-right">
 					<div class="single-events">
-						<a href="#">
+						<a href="#">&#xfeff
 							<h4>Greece</h4>
 						</a>
 						<h6><span>Room 19</span></h6>
@@ -327,7 +328,7 @@
 							height of its political and cultural power.
 						</p>
 						<a href="category.html#greece" class="primary-btn text-uppercase">View Details</a>
-						<img class="img-fluid" src="https://britishmuseum.info/img/categories/greece2.jpg" alt="">
+						<img class="img-fluid" src="https://britishmuseum.info/img/categories/greece2.webp" alt="foto">
 					</div>
 				</div>
 			</div>
@@ -338,12 +339,12 @@
 
 
 	<!-- Start gallery Area -->
-	<section class="gallery-area section-gap" id="gallery">
+	<!-- <section class="gallery-area section-gap" id="gallery">
 		<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="menu-content pb-70 col-lg-8">
 					<div class="title text-center">
-						<h1 class="mb-10 text-white">Gallery of our Museum</h1>
+						<h2 class="mb-10 text-white">Gallery of our Museum</h2>
 						<p>Here we showcase an overview of the highlights of our museum</p>
 					</div>
 				</div>
@@ -364,7 +365,7 @@
 				<img class="grid-item">
 				<img class="grid-item">
 				<img class="grid-item">
-				<img class="grid-item">
+				<img class="grid-item"> -->
 				<!-- <a class="single-gallery" href="img/gallery/gallery1.jpg"><img class="grid-item"
 						src="img/gallery/gallery1.jpg"></a>
 				<a class="single-gallery" href="img/gallery/gallery2.jpg"><img class="grid-item"
@@ -395,18 +396,18 @@
 						src="img/gallery/gallery14.jpg"></a>
 				<a class="single-gallery" href="img/gallery/gallery15.jpg"><img class="grid-item"
 						src="img/gallery/gallery15.jpg"></a> -->
-			</div>
+			<!-- </div>
 		</div>
-	</section>
+	</section> -->
 	<!-- End gallery Area -->
 
 	<!-- start social Area -->
-	<section class="footer-area section-gap" id="social">
+	<section class="exibition-area section-gap" id="social">
 		<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="menu-content pb-60 col-lg-10">
 					<div class="title text-center">
-						<h1 class="mb-10">Our Twitter Feed</h1>
+						<h2 class="mb-10">Our Twitter Feed</h2>
 						<p>Here we show you our recent tweets</p>
 					</div>
 				</div>
@@ -418,7 +419,7 @@
 	<!-- End social Area -->
 
 	<!-- start footer Area -->
-	<footer class="exibition-area section-gap">
+	<footer class="footer-area section-gap">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5 col-md-6 col-sm-6">
@@ -431,7 +432,7 @@
 						<p class="footer-text">
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 							Copyright &copy;
-							<script>document.write(new Date().getFullYear());</script> All rights reserved | This
+							All rights reserved | This
 							template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
 								href="https://colorlib.com" target="_blank">Colorlib</a> and distributed by <a
 								href="https://themewagon.com" target="_blank">ThemeWagon</a>
@@ -446,9 +447,9 @@
 						<p>Let us be social</p>
 						<div class="footer-social d-flex align-items-center">
 							<a href="https://www.facebook.com/britishmuseum/" target="_blank"><i
-									class="fa fa-facebook"></i></a>
+									class="fa fa-facebook"></i>&#xfeff</a>
 							<a href="https://twitter.com/britishmuseum/" target="_blank"><i
-									class="fa fa-twitter"></i></a>
+									class="fa fa-twitter"></i>&#xfeff</a>
 						</div>
 					</div>
 				</div>
@@ -461,7 +462,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
 		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
 		crossorigin="anonymous"></script>
-	<script src="js/vendor/bootstrap.min.js"></script>
+	<!-- <script src="js/vendor/bootstrap.min.js"></script> -->
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9wH8FwBm-muIE9rW-Dft1-_kqKXmym3Q"></script>
 	<script src="js/easing.min.js"></script>
 	<script src="js/hoverIntent.js"></script>
@@ -470,11 +471,11 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/imagesloaded.pkgd.min.js"></script>
-	<script src="js/justified.min.js"></script>
+	<!-- <script src="js/justified.min.js"></script> -->
 	<script src="js/jquery.sticky.js"></script>
 	<script src="js/jquery.nice-select.min.js"></script>
 	<script src="js/parallax.min.js"></script>
-	<script src="js/mail-script.js"></script>
+	<!-- <script src="js/mail-script.js"></script> -->
 	<script src="https://platform.twitter.com/widgets.js"></script>
 	<script src="js/main.js"></script>
 </body>

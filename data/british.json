@@ -18,20 +18,20 @@
                 "longitude":"-0.1269244066414637"
             },
             "hasDriveThroughService":"False",
-            "hasMap":"https://www.britishmuseum.org/visit/museum-map",
+            "hasMap":"https://britishmuseum.org/visit/museum-map",
             "isAccessibleForFree":"True",
             "keywords":"museum, culture, egypt, greece, history, art, sculpture",
-            "logo":"http://britishmuseum.info/img/favicon-32x32.png",
+            "logo":"https://britishmuseum.info/img/favicon-32x32.png",
             "maximumAttendeeCapacity":"",
-            "photo":"http://britishmuseum.info/img/British_Museum_Exterior.jpg",
+            "photo":"https://britishmuseum.info/img/British_Museum_Exterior.jpg",
             "publicAccess":"True",
             "slogan":"Bring together under one roof the cultures of the world",
             "smokingAllowed":"False",
             "telephone":"+44 (0)20 7323 8000",
-            "tourBookingPage":"https://www.britishmuseum.org/visit",
+            "tourBookingPage":"https://britishmuseum.org/visit",
             "description":"The British Museum is a public museum dedicated to human history, art and culture located in the Bloomsbury area of London.\nIts permanent collection of eight million works is among the largest and most comprehensive in existence. It documents the story of human culture from its beginnings to the present.",
             "identifier":"1958,0712.2142",
-            "mainEntityOfPage":"https://www.britishmuseum.info",
+            "mainEntityOfPage":"https://britishmuseum.info",
             "name":"British Museum",
             "author":[
                 {
@@ -50,7 +50,7 @@
                     "seeks":"aprovar"
                 }
             ],
-            "url":"https://www.britishmuseum.info"
+            "url":"https://britishmuseum.info"
         },
     
     "categories": [
@@ -60,7 +60,7 @@
             "image":"https://britishmuseum.info/img/categories/greece2.jpg",
             "MediaObject":{
                 "@type":"VideoObject",
-                "contentUrl":"http://britishmuseum.info/videos/videoGreece.mp4"
+                "contentUrl":"https://britishmuseum.info/videos/videoGreece.mp4"
             }
         },
         {
@@ -69,7 +69,7 @@
             "image":"https://britishmuseum.info/img/categories/egypt1.jpg",
             "MediaObject":{
                 "@type":"VideoObject",
-                "contentUrl":"http://britishmuseum.info/videos/egypt.mp4"
+                "contentUrl":"https://britishmuseum.info/videos/egypt.mp4"
             }
         }
     ],
@@ -79,7 +79,7 @@
             "@type":"Event",
             "name":"The World of Stonehenge",
             "description":"Towering above the Wiltshire countryside, Stonehenge is perhaps the world's most awe-inspiring ancient stone circle.",
-            "image":"http://britishmuseum.info/img/exhibitions/stonehenge.jpg",
+            "image":"https://britishmuseum.info/img/exhibitions/stonehenge.webp",
             "keywords":[
                 "Monument","Stone Age"
             ],
@@ -91,7 +91,7 @@
             "@type":"Event",
             "name":"Life in a cup: Coffee culture in the Islamic World",
             "description":"'Life in a cup' presents a fascinating story and explores the traditions that make coffee a way of life in parts of the Islamic world.",
-            "image":"http://britishmuseum.info/img/exhibitions/coffe.jpeg",
+            "image":"https://britishmuseum.info/img/exhibitions/coffe.webp",
             "keywords":[
                 "Drink & food","Arabic"
             ],
@@ -103,7 +103,7 @@
             "@type":"Event",
             "name":"Feminine power: the divine to the demonic",
             "description":"The first exhibition of its kind, Feminine power takes a cross-cultural look at the profound influence of female spiritual beings within global religion and faith.",
-            "image":"http://britishmuseum.info/img/exhibitions/femeninepower.jpg",
+            "image":"https://britishmuseum.info/img/exhibitions/femeninepower.webp",
             "keywords":[
                 "History","Feminism"
             ],
@@ -115,7 +115,7 @@
             "@type":"Event",
             "name":"Drawing attention: emerging British artists",
             "description":"Discover emerging talents in the field of contemporary drawing, displayed alongside highlights from the Museum's collection.",
-            "image":"http://britishmuseum.info/img/exhibitions/drawing.jpg",
+            "image":"https://britishmuseum.info/img/exhibitions/drawing.webp",
             "keywords":[
                 "Drawing","Contemporary"
             ],
@@ -127,7 +127,7 @@
             "@type":"Event",
             "name":"Greek Revival: simplicity and splendour",
             "description":"In this free display, discover more about the rise of Greek Revival architecture through contemporary watercolours and contextual images. This is a rare opportunity to learn more about Smirke and view his original drawing of the Parthenon within the walls of the building he designed.",
-            "image":"http://britishmuseum.info/img/exhibitions/partenon.jpg",
+            "image":"https://britishmuseum.info/img/exhibitions/partenon.webp",
             "keywords":[
                 "Ancient Greece","Architecture"
             ],
@@ -139,7 +139,7 @@
             "@type":"Event",
             "name":"Raphael and his school: drawing connections",
             "description":"Experience the Italian Renaissance master's exquisite drawings and trace his influence through the work of his pupils.",
-            "image":"http://britishmuseum.info/img/exhibitions/rapahel.png",
+            "image":"https://britishmuseum.info/img/exhibitions/rapahel.webp",
             "keywords":[
                 "Drawing","Cinquecento"
             ],
@@ -151,7 +151,7 @@
             "@type":"Event",
             "name":"Printmaking in Prague: art from the court of Rudolf II",
             "description":"In this exhibition, learn more about printmaking in Rudolf's court in Prague during the highpoint of innovative and ambitious prints made from around 1580 until the early years of the 17th century",
-            "image":"http://britishmuseum.info/img/exhibitions/printmaking.jpg",
+            "image":"https://britishmuseum.info/img/exhibitions/printmaking.webp",
             "keywords":[
                 "Drawing","Renaissance"
             ],
@@ -163,7 +163,7 @@
             "@type":"Event",
             "name":"Around the world in 70 minutes tour",
             "description":"Explore some of the most famous objects on display at the Museum on this guided highlights tour.",
-            "image":"http://britishmuseum.info/img/exhibitions/world.jpg",
+            "image":"https://britishmuseum.info/img/exhibitions/world.webp",
             "keywords":[
                 "Tour","International"
             ],
@@ -175,7 +175,7 @@
             "@type":"Event",
             "name":"Out-of-hours tour: an introduction to the British Museum",
             "description":"Explore the oldest room in the Museum in this special guided tour before the galleries open to the public.",
-            "image":"http://britishmuseum.info/img/exhibitions/tour.jpg",
+            "image":"https://britishmuseum.info/img/exhibitions/tour.webp",
             "keywords":[
                 "Tour","Museum"
             ],
@@ -188,22 +188,22 @@
     "datosExtra": [
         {
             "gallery": [
-                "http://britishmuseum.info/img/gallery/gallery0.jpg",
-                "http://britishmuseum.info/img/gallery/gallery1.jpg",
-                "http://britishmuseum.info/img/gallery/gallery2.jpg",
-                "http://britishmuseum.info/img/gallery/gallery3.jpg",
-                "http://britishmuseum.info/img/gallery/gallery4.jpg",
-                "http://britishmuseum.info/img/gallery/gallery5.jpg",
-                "http://britishmuseum.info/img/gallery/gallery6.jpg",
-                "http://britishmuseum.info/img/gallery/gallery7.jpg",
-                "http://britishmuseum.info/img/gallery/gallery8.jpg",
-                "http://britishmuseum.info/img/gallery/gallery9.jpg",
-                "http://britishmuseum.info/img/gallery/gallery10.jpg",
-                "http://britishmuseum.info/img/gallery/gallery11.jpg",
-                "http://britishmuseum.info/img/gallery/gallery12.jpg",
-                "http://britishmuseum.info/img/gallery/gallery13.jpg",
-                "http://britishmuseum.info/img/gallery/gallery14.jpg",
-                "http://britishmuseum.info/img/gallery/gallery15.jpg"
+                "https://britishmuseum.info/img/gallery/gallery0.jpg",
+                "https://britishmuseum.info/img/gallery/gallery1.jpg",
+                "https://britishmuseum.info/img/gallery/gallery2.jpg",
+                "https://britishmuseum.info/img/gallery/gallery3.jpg",
+                "https://britishmuseum.info/img/gallery/gallery4.jpg",
+                "https://britishmuseum.info/img/gallery/gallery5.jpg",
+                "https://britishmuseum.info/img/gallery/gallery6.jpg",
+                "https://britishmuseum.info/img/gallery/gallery7.jpg",
+                "https://britishmuseum.info/img/gallery/gallery8.jpg",
+                "https://britishmuseum.info/img/gallery/gallery9.jpg",
+                "https://britishmuseum.info/img/gallery/gallery10.jpg",
+                "https://britishmuseum.info/img/gallery/gallery11.jpg",
+                "https://britishmuseum.info/img/gallery/gallery12.jpg",
+                "https://britishmuseum.info/img/gallery/gallery13.jpg",
+                "https://britishmuseum.info/img/gallery/gallery14.jpg",
+                "https://britishmuseum.info/img/gallery/gallery15.jpg"
             ],
 
             "galleryEgypt": [

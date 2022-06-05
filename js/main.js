@@ -86,7 +86,7 @@ $(document).ready(function () {
       'id': ''
     });
     $('body').append($mobile_nav);
-    $('body').prepend('<button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>');
+    $('body').prepend('<button type="button" id="mobile-nav-toggle" aria-label="Menu"><i class="lnr lnr-menu"></i></button>');
     $('body').append('<div id="mobile-body-overly"></div>');
     $('#mobile-nav').find('.menu-has-children').prepend('<i class="lnr lnr-chevron-down"></i>');
 
@@ -231,7 +231,8 @@ $(document).ready(function () {
 
   if (document.getElementById("map")) {
 
-    google.maps.event.addDomListener(window, 'load', init);
+    // google.maps.event.addEventListener('load', init);
+    window.addEventListener('load', init);
 
     function init() {
       // Basic options for a simple Google Map
@@ -336,6 +337,7 @@ $(document).ready(function () {
       descripcio.innerHTML = event_description;
       dataInici.innerHTML = start_date;
       dataFi.innerHTML = end_date;
+      imatge.setAttribute("alt", "foto_event");
 
       my_div.appendChild(imatge);
       list.appendChild(tag1);
@@ -378,36 +380,19 @@ $(document).ready(function () {
 
   funcionsJSON();
 
-  function padTo2Digits(num) {
-    return num.toString().padStart(2, '0');
-  }
-
-  function convertMsToHM(milliseconds) {
-    let seconds = Math.floor(milliseconds / 1000);
-    let minutes = Math.floor(seconds / 60);
-    let hours = Math.floor(minutes / 60);
-    seconds = seconds % 60;
-    minutes = seconds >= 30 ? minutes + 1 : minutes;
-    minutes = minutes % 60;
-    hours = hours % 24;
-
-    return `${padTo2Digits(hours)}:${padTo2Digits(minutes)}`;
-  }
-
-
   //  Gallery 
 
 
-  var parameters = {
-    gridContainer: '#grid-container',
-    gridItems: '.grid-item',
-    gutter: 15,
-    enableImagesLoaded: true
-  };
-  var grid = new justifiedGrid(parameters);
-  $('body').imagesLoaded(function () {
-    grid.initGrid();
-  });
+  // var parameters = {
+  //   gridContainer: '#grid-container',
+  //   gridItems: '.grid-item',
+  //   gutter: 15,
+  //   enableImagesLoaded: true
+  // };
+  // var grid = new justifiedGrid(parameters);
+  // $('body').imagesLoaded(function () {
+  //   grid.initGrid();
+  // });
 
 
 
@@ -419,7 +404,6 @@ $(document).ready(function () {
       longitude = datos.british.geo.longitude;
 
       var endpoint = "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&lang=en&units=metric&appid=2b2b3127d7ec6a4e00db491c290ea173";
-      console.log(endpoint);
 
       fetch(endpoint)
         .then(function (response) {
